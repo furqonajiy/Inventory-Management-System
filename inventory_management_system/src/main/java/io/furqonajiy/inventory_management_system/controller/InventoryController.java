@@ -17,8 +17,9 @@ public class InventoryController {
     private InventoryRepository inventoryRepository;
 
     // Get All Inventory
-    @GetMapping("/inventories")
+    @GetMapping("/inventory")
     public List<Inventory> GetAllInventories() {
         return inventoryRepository.findAll();
+        // return "XXX";
     }
 }
