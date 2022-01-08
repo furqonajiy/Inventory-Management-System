@@ -73,87 +73,87 @@ public class Inventory {
 
     }
 
-    public String GetSKU() {
+    public String getSKU() {
         return SKU;
     }
-    public void SetSKU(String SKU) {
+    public void setSKU(String SKU) {
         this.SKU = SKU;
     }
 
-    public String GetMainKeyword() {
+    public String getMainKeyword() {
         return mainKeyword;
     }
-    public void SetMainKeyword(String mainKeyword) {
+    public void setMainKeyword(String mainKeyword) {
         this.mainKeyword = mainKeyword;
     }
 
-    public String GetInventoryType() {
+    public String getInventoryType() {
         return inventoryType;
     }
-    public void SetInventoryType(String inventoryType) {
+    public void setInventoryType(String inventoryType) {
         this.inventoryType = inventoryType;
     }
 
-    public String GetNotes() {
+    public String getNotes() {
         return notes;
     }
-    public void SetNotes(String notes) {
+    public void setNotes(String notes) {
         this.notes = notes;
     }
 
-    public String GetUse() {
+    public String getUse() {
         return use;
     }
-    public void SetUse(String use) {
+    public void setUse(String use) {
         this.use = use;
     }
 
-    public String GetAlternativeKeyword() {
+    public String getAlternativeKeyword() {
         return alternativeKeyword;
     }
-    public void SetAlternativeKeyword(String alternativeKeyword) {
+    public void setAlternativeKeyword(String alternativeKeyword) {
         this.alternativeKeyword = alternativeKeyword;
     }
 
-    public String GetBisaDivisi() {
+    public String getBisaDivisi() {
         return bisaDivisi;
     }
-    public void SetBisaDivisi(String bisaDivisi) {
+    public void setBisaDivisi(String bisaDivisi) {
         this.bisaDivisi = bisaDivisi;
     }
 
-    public int GetMassInGram() {
+    public int getMassInGram() {
         return massInGram;
     }
-    public void SetMassInGram(int massInGram) {
+    public void setMassInGram(int massInGram) {
         this.massInGram = massInGram;
     }
 
-    public String GetHashTag() {
+    public String getHashTag() {
         return hashTag;
     }
-    public void SetHashTag(String hashTag) {
+    public void setHashTag(String hashTag) {
         this.hashTag = hashTag;
     }
 
-    public String GetBukalapakLink() {
+    public String getBukalapakLink() {
         return bukalapakLink;
     }
-    public void SetBukalapakLink(String bukalapakLink) {
+    public void setBukalapakLink(String bukalapakLink) {
         this.bukalapakLink = bukalapakLink;
     }
 
-    public String GetTokopediaLink() {
+    public String getTokopediaLink() {
         return tokopediaLink;
     }
-    public void SetTokopediaLink(String tokopediaLink) {
+    public void setTokopediaLink(String tokopediaLink) {
         this.tokopediaLink = tokopediaLink;
     }
 
-    public String GetShopeeLink() {
+    public String getShopeeLink() {
         return shopeeLink;
     }
-    public void SetShopeeLink(String shopeeLink) {
+    public void setShopeeLink(String shopeeLink) {
         this.shopeeLink = shopeeLink;
     }
 

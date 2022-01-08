@@ -7,5 +7,5 @@ import io.furqonajiy.inventory_management_system.model.Inventory;
 
 @Repository
 public interface InventoryRepository extends JpaRepository<Inventory, String> {
-    
+
 }
