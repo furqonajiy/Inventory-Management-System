@@ -1,10 +1,10 @@
-package io.furqonajiy.inventory_management_system;
+package io.furqonajiy._ims.javaspringbackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class InventoryManagementSystemApplicationTests {
+class JavaspringbackendApplicationTests {
 
 	@Test
 	void contextLoads() {

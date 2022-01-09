@@ -1,4 +1,4 @@
-package io.furqonajiy.inventory_management_system.exception;
+package io.furqonajiy._ims.javaspringbackend.exception;
 
 import org.springframework.web.bind.annotation.ResponseStatus;
 
