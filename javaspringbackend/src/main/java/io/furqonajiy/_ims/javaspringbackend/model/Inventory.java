@@ -14,7 +14,7 @@ public class Inventory {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "sku")
-    private String SKU;
+    private String sku;
 
     @Column(name = "main_keyword")
     private String mainKeyword;
@@ -53,12 +53,12 @@ public class Inventory {
         
     }
 
-    public Inventory(String SKU, String mainKeyword, String inventoryType, 
+    public Inventory(String sku, String mainKeyword, String inventoryType, 
                      String notes, String use, String alternativeKeyword,
                      String bisaDivisi, int massInGram, String hashTag,
                      String bukalapakLink, String tokopediaLink, String shopeeLink) {
         super();
-        this.SKU = SKU;
+        this.sku = sku;
         this.mainKeyword = mainKeyword;
         this.inventoryType = inventoryType;
         this.notes = notes;
@@ -73,11 +73,11 @@ public class Inventory {
 
     }
 
-    public String getSKU() {
-        return SKU;
+    public String getsku() {
+        return sku;
     }
-    public void setSKU(String SKU) {
-        this.SKU = SKU;
+    public void setsku(String sku) {
+        this.sku = sku;
     }
 
     public String getMainKeyword() {

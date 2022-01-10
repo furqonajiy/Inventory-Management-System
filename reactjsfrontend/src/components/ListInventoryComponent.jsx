@@ -6,13 +6,13 @@ class ListInventoryComponent extends Component {
         super(props)
 
         this.state = {
-            inventory : []
+            inventory: []
         }
     }
 
     componentDidMount() {
         InventoryService.getInventory().then((res) => {
-            this.setState({inventory : res.data});
+            this.setState({ inventory: res.data });
         });
     }
 
@@ -20,7 +20,7 @@ class ListInventoryComponent extends Component {
         return (
             <div>
                 <h2 className="text-center">Inventory List</h2>
-                <div className= "row">
+                <div className="row">
                     <table className="table table-striped table-bordered">
                         <thead>
                             <tr>
@@ -43,20 +43,21 @@ class ListInventoryComponent extends Component {
                         <tbody>
                             {
                                 this.state.inventory.map(
-                                    inventory => 
-                                    <tr key={inventory.SKU}>
-                                        <td>{inventory.mainKeyword}</td>
-                                        <td>{inventory.inventoryType}</td>
-                                        <td>{inventory.notes}</td>
-                                        <td>{inventory.use}</td>
-                                        <td>{inventory.alternativeKeyword}</td>
-                                        <td>{inventory.bisaDivisi}</td>
-                                        <td>{inventory.massInGram}</td>
-                                        <td>{inventory.hashTag}</td>
-                                        <td>{inventory.bukalapakLink}</td>
-                                        <td>{inventory.tokopediaLink}</td>
-                                        <td>{inventory.shopeeLink}</td>
-                                    </tr>
+                                    inventory =>
+                                        <tr key={inventory.sku}>
+                                            <td>{inventory.sku}</td>
+                                            <td>{inventory.mainKeyword}</td>
+                                            <td>{inventory.inventoryType}</td>
+                                            <td>{inventory.notes}</td>
+                                            <td>{inventory.use}</td>
+                                            <td>{inventory.alternativeKeyword}</td>
+                                            <td>{inventory.bisaDivisi}</td>
+                                            <td>{inventory.massInGram}</td>
+                                            <td>{inventory.hashTag}</td>
+                                            <td>{inventory.bukalapakLink}</td>
+                                            <td>{inventory.tokopediaLink}</td>
+                                            <td>{inventory.shopeeLink}</td>
+                                        </tr>
                                 )
                             }
                         </tbody>
